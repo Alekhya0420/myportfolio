@@ -8,7 +8,6 @@ type props={
         id: number;
         title: string;
         image: string;
-        percent: string;
     };
 };
 

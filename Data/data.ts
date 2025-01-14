@@ -67,8 +67,7 @@ export const BaseInfo = {
     {
       id: 4,
       title: "TypeScript",
-      image: "/images/ts.svg",
-      percent: "67%",
+      image: "/images/ts.svg"
     },
     {
       id: 5,
@@ -89,7 +88,6 @@ export const BaseInfo = {
       id: 8,
       title: "Sql",
       image: "/images/sql.png",
-      percent: "65%",
 
     }
   ];
