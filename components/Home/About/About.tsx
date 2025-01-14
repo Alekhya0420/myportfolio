@@ -1,7 +1,6 @@
 import React from 'react'
 import SectionHeading from '@/components/Helper/SectionHeading'
-import { aboutInfo } from '@/Data/data'
-import { FaCheck } from 'react-icons/fa'
+import {aboutInfo} from '@/Data/data'
 import Image from 'next/image'
 
 const About = () => {

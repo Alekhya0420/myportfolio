@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import Hero from './Hero/Hero'
 import About from './About/About'
 import Knowledge from './Knowledge/Knowledge'
