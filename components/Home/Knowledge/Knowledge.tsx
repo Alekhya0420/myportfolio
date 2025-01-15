@@ -10,8 +10,8 @@ const Knowledge = () => {
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  w-[60%]
         items-center gap-10 mt-20 mx-auto'>
             {
-             skillset.map((skill)=>{
-                return <div key={skill.id}>
+             skillset.map((skill,i)=>{
+                return <div key={skill.id}  data-aos="flip-up" data-aos-delay={`${i*250}`}>
                 <KnowledgeCard skill={skill}/>
                 </div>
              })   

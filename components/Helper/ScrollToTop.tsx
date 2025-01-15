@@ -24,13 +24,14 @@ const ScrollToTop = () => {
 
     const ScrollToTop=()=>{
         window.scrollTo({
-            top:0,
-            behavior:"smooth"
+         top:0,
+         behavior:"smooth"
         })
     }
 
   return (
-    <div className='fixed bottom-4 right-4'>
+    <div 
+    className='fixed bottom-4 right-4'>
     {isvisible && <button onClick={ScrollToTop} className='bg-blue-900 rounded-lg text-white w-12 h-12 flex items-center justify-center
     focus:outline-none'>
     <FaArrowUp/>
