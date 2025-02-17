@@ -1,4 +1,4 @@
-//vercel https://myportfolio-steel-ten.vercel.app/
+"use client"
 
 import React from 'react'
 import SectionHeading from '@/components/Helper/SectionHeading'
@@ -8,7 +8,6 @@ import Image from 'next/image'
 const About = () => {
   return (
     
-
     <div className='pt-16 pb-16 bg-[#050709]'>
       <SectionHeading>About me</SectionHeading>
 

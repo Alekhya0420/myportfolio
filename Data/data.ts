@@ -39,12 +39,6 @@ export const BaseInfo = {
       image:"/images/project4.png",
       url:"https://javascript-game-celestiferno.vercel.app/",
       gitrep:"https://github.com/Alekhya0420/javascript-game-celestiferno-.git"
-    },
-    {
-      id:5,
-      image:"/images/project5.png",
-      url:"https://react-movie-pi-two.vercel.app/home-page",
-      gitrep:"https://github.com/Alekhya0420/react-movie.git"
     }
   ];
   
@@ -76,16 +70,6 @@ export const BaseInfo = {
     },
     {
       id: 6,
-      title: "Node JS",
-      image: "/images/node.svg",
-    },
-    {
-      id: 7,
-      title: "MongoDB",
-      image: "/images/mongo.svg",
-    },
-    {
-      id: 8,
       title: "Sql",
       image: "/images/sql.png",
 
